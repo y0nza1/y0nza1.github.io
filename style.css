@@ -6,12 +6,24 @@ body { background-color:#101010;
     font-family: 'Noto Sans SC', sans-serif;
     font-size: 15px;
     font-weight: 100; }        
-nav { font-weight: 300; font-size: 1.25em; text-align: center; letter-spacing: 3px; }
-a { text-decoration: none; text-transform: null; }
-    a { color: #ffbb30; }
-h1 { font-weight: 400; text-align: center; letter-spacing: 3px;}    
-    h1 { background-color: #353535; color: #ffbb30; }
-h3 { font-weight: 300; text-indent: 0.5em; background-color: #353535; color: #ffffff; }
+nav { font-weight: 300;
+    font-size: 1.25em;
+    text-align: center;
+    letter-spacing: 3px; }
+a { color: #ffbb30; 
+    text-decoration: none;
+    text-transform: null; } 
+h1 { background-color: #353535;
+    color: #ffbb30;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 3px; }    
+h2 { font-weight: 200;
+    text-indent: 0.5em; }
+h3 { background-color: #353535;
+    color: #ffffff;
+    font-weight: 300;
+    text-indent: 0.5em; }
 p { padding-left: 5px; }
 footer { padding-left: 5px; }
 
@@ -19,5 +31,16 @@ footer { padding-left: 5px; }
 
 /*classes*/
 .feature { color: #00ff00; }
+.dashedborder { border-width: 3px;
+    border-style: dashed;
+    border-color: #000033; }
 
 /*formatting*/
+#wrapper { margin-left: auto;
+        margin-right: auto;
+        width: 70%; }
+h1 { padding: 1em; }
+h2 { border-left: 2px solid #ffbb30; }
+h3 { border-left: 2px solid #ffbb30; }
+footer { border-top: thin solid #333333 ; 
+    padding-top: 2px; }
