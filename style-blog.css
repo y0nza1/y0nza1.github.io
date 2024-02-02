@@ -1,0 +1,63 @@
+
+/*y0nza1.github.io style sheet*/
+/*--- BLOG EDITION ---*/
+
+/*theme*/
+body {
+    background-color:#101010; 
+     background-image: url(disco_elysium_001.png);
+    background-position: center;
+    color: #000000;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 15px;
+    font-weight: 100; }
+nav { 
+   background-color: #353535; 
+    font-weight: 300;
+    font-size: 1.25em;
+    text-align: center;
+    letter-spacing: 3px; }
+a { color: #ffbb30; 
+    text-decoration: none;
+    text-transform: null; } 
+h1 { background-color: #353535;
+    color: #ffbb30;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 3px; }
+main { background-color: #99999990; }
+h2 { font-weight: 200;
+    text-indent: 0.5em; }
+h3 { background-color: #353535;
+    color: #ffffff;
+    font-weight: 300;
+    text-indent: 0.5em; }
+footer { color: #ffbb30; 
+    font-weight: 300; }
+/* p { padding-left: 5px; }
+footer { padding-left: 5px; } */
+
+/*fonts*/
+
+/*classes*/
+.feature { color: #00ff00; }
+.dashedborder { border-width: 3px;
+    border-style: dashed;
+    border-color: #000033; }
+
+/*formatting*/
+#wrapper { margin-left: auto;
+        margin-right: auto;
+        width: 70%; }
+h1 { padding: 0.5em; }
+nav { padding: 0.5em; }
+h2 { border-left: 2px solid #ffbb30; }
+h3 { border-left: 2px solid #ffbb30; }
+p { padding-left: 5px; }
+img { width: 100%;
+    height: auto; }
+figcaption { text-align: center; 
+    font-size: 0.80em; }
+footer { border-top: thin solid #ffbb30 ; 
+    padding-top: 3px; 
+    padding-left: 5px; }
