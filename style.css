@@ -2,42 +2,42 @@
 
 /*theme*/
 body { 
-    background-color:#101010; 
+    background-color:#282828; 
     color: #ffffff;
     font-family: 'Noto Sans SC', sans-serif;
     font-size: 15px;
     font-weight: 100; }        
 h1 { 
-    background-color: #ffffff80;
-    color: #ffbb30;
+    background-color: #3c3836;
+    color: #d79921;
     font-weight: 400;
     text-align: center;
-    letter-spacing: 3px;
-    box-shadow: 0px 0px 5px 5px #1e1e1e90; }
+    letter-spacing: 3px; }
 nav { 
-    background-color: #ffffff80; 
+    background-color: #3c3836; 
     font-weight: 300;
     font-size: 1.25em;
     text-align: center;
-    letter-spacing: 3px; 
-    box-shadow: 0px 0px 5px 5px #1e1e1e80; }
+    letter-spacing: 3px; }
 a { 
-    color: #ffbb30; 
+    color: #cc241d; 
     text-decoration: none;
     text-transform: null; } 
+a:hover {
+    color: #ebdbb2; }
 main { 
-    background-color: #ffffff80;
-    color: #000000;
+    background-color: #3c3836;
+    color: #fbf1c7;
     font-family: 'Noto Sans SC', sans-serif;
     font-size: 15px;
-    font-weight: 200; 
-    box-shadow: 0px 0px 5px 5px #1e1e1e90; }
+    font-weight: 200; }
 h2 { 
+    background-color: #665c54;
     font-weight: 200;
     text-indent: 0.5em; }
 h3 { 
-    background-color: #353535;
-    color: #ffffff;
+    background-color: #665c54;
+    color: #fabd2f;
     font-weight: 300;
     text-indent: 0.5em; }
 footer { 
@@ -52,7 +52,18 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: 50%; }
-.feature { color: #00ff00; }
+.feature_red { color: #cc241d; }
+.feature_green { color: #98971a; }
+.feature_yellow { color: #d79921; }
+.feature_blue { color: #458588; }
+
+/*link color classes*/
+a.internal {
+    color: #cc241d;
+}
+a.external {
+    color: #b16286;
+}
 
 /*formatting*/
 * {
@@ -70,20 +81,16 @@ footer {
     padding: 5px; }
 h1 {
     padding: 10px; 
-    border: 3px solid #ffbb30;
-    border-radius: 15px; 
     box-sizing:border-box; }
 nav {
     padding: 10px;
-    border: 3px solid #ffbb30;
-    border-radius: 15px;
     box-sizing:border-box; }
 main {
+    border: 3px solid #7c6f64;
     position: relative;
     display: block;
     padding: 10px;
-    border: 3px solid #ffbb30;
-    border-radius: 15px;
+    /*border-radius: 15px;*/
     box-sizing:border-box; }
 h2 { border-left: 3px solid #ffbb30; }
 h3 { border-left: 3px solid #ffbb30; }
@@ -95,6 +102,5 @@ figcaption {
     text-align: center; 
     font-size: 0.80em; }
 footer { 
-    border-top: thin solid #333333 ; 
     padding-top: 10px; 
     padding-left: 5px; }
