@@ -39,7 +39,8 @@ h3 {
     background-color: #665c54;
     color: #fabd2f;
     font-weight: 300;
-    text-indent: 0.5em; }
+    text-indent: 0.5em; 
+}
 footer { 
     color: #ffbb30; 
     font-weight: 300; }
@@ -57,12 +58,23 @@ footer {
 .feature_yellow { color: #d79921; }
 .feature_blue { color: #458588; }
 
+.heavy_font { font-weight: 500; }
+
+
 /*link color classes*/
 a.internal {
     color: #cc241d;
 }
 a.external {
     color: #b16286;
+}
+
+/*ids*/
+#blog {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color:#3c3836;
+    background-color: #d5c4a1;
 }
 
 /*formatting*/
@@ -94,7 +106,16 @@ main {
     box-sizing:border-box; }
 h2 { border-left: 3px solid #ffbb30; }
 h3 { border-left: 3px solid #ffbb30; }
-p { padding-left: 5px; }
+p { padding-left: 10px; 
+    padding-right: 10px;
+}
+dl {
+    padding-left: 10px;
+    padding-right:10px;
+}
+dt {
+    padding-left:10px;
+}
 img { 
     width: auto;
     height: auto; } 
@@ -104,3 +125,10 @@ figcaption {
 footer { 
     padding-top: 10px; 
     padding-left: 5px; }
+
+/*Visibility to Load*/
+/* Please add this to your html head element if so:
+<style>html{visibility: hidden; opacity: 0;}</style> */
+html {
+    visibility: visible;
+    opacity: 1; }
