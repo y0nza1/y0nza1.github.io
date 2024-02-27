@@ -44,16 +44,10 @@ h3 {
 footer { 
     color: #ffbb30; 
     font-weight: 300; }
-hr {
-    border-color: #7c6f64;
-    background-color: #7c6f64;
-    color: #7c6f64;
-}
 
 /*fonts*/
 
 /*classes*/
-
 .center { 
     display: block;
     margin-left: auto;
@@ -64,27 +58,7 @@ hr {
 .feature_yellow { color: #d79921; }
 .feature_blue { color: #458588; }
 
-
-
 .heavy_font { font-weight: 500; }
-
-/* ids */
-#main {
-    padding: 5px;
-    overflow:hidden;
-}
-#inner-left {
-    margin-left: 5px;
-    float: left;
-    width: 45%;
-    height: 50%;
-}
-#inner-right {
-    margin-right: 5px;
-    float: right;
-    width: 45%;
-    height: 50%;
-}
 
 
 /*link color classes*/
@@ -115,11 +89,13 @@ a.external {
 #nav {
     padding: 5px;
     margin-bottom: 10px; }
+#main {
+    padding: 5px; }
 h1 {
     padding: 10px; 
     box-sizing:border-box; }
 nav {
-    padding: 5px;
+    padding: 10px;
     box-sizing:border-box; }
 main {
     border: 3px solid #7c6f64;
@@ -129,6 +105,7 @@ main {
     /*border-radius: 15px;*/
     box-sizing:border-box; }
 h2 { border-left: 3px solid #ffbb30; }
+h3 { border-left: 3px solid #ffbb30; }
 p { padding-left: 10px; 
     padding-right: 10px;
 }
