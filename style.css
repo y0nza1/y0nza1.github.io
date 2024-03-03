@@ -137,7 +137,8 @@ main {
     display: block;
     padding: 1em;
     /*border-radius: 15px;*/
-    box-sizing:border-box; }
+    box-sizing:border-box;
+ }
 h2 { border-left: 3px solid #ffbb30; }
 p { padding-left: 10px; 
     padding-right: 10px;
